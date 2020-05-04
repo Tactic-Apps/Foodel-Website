@@ -1,0 +1,90 @@
+.section-steps{
+    background-color: #f4f4f4;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.steps-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.app-screen {
+    width: 40%;
+}
+
+.works-step{
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type{
+    margin-bottom: 80px;
+}
+
+.works-step div {
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Big Tablets to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* Small Tablet to Big Tablets: 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    .steps-box:first-child { margin-top: 30px; }
+    .steps-box:last-child { margin-top: 30px; }
+    .works-step { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 60px; }
+
+    .app-screen { width: 50%; }
+}
+
+
+/* Small Phones to Small Tablets: 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .steps-box:first-child { text-align: center; }
+    .app-screen { width: 40%; }
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px; }
+
+    .works-step div{
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+}
+
+
+/* Small Phone: 0 to 480px */
+@media only screen and (max-width: 480px) {
+
+}

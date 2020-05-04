@@ -1,0 +1,24 @@
+{
+  "name": "omnifood",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://raybdev.github.io/omnifood/build/",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.2",
+    "react-animated-css": "^1.0.4",
+    "react-dom": "^16.4.2",
+    "react-gmaps": "^1.9.0",
+    "react-scripts": "1.1.4",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-waypoint": "^8.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
