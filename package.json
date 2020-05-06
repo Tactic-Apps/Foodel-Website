@@ -5,7 +5,7 @@
   "homepage": "https://raybdev.github.io/omnifood/build/",
   "dependencies": {
     "animate.css": "^3.7.0",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "normalize.css": "^8.0.0",
     "react": "^16.4.2",
     "react-animated-css": "^1.0.4",

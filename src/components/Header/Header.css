@@ -1,43 +1,48 @@
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../../assets/img/hero.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/img/hero-min.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-attachment: fixed;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.7)),
+      to(rgba(0, 0, 0, 0.7))
+    ),
+    url("../../assets/img/hero-min.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../assets/img/hero-min.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* Big Tablets to 1200px (widths smaller than the 1140px row) */
 @media only screen and (max-width: 1200px) {
-    .hero-text-box {
-        width: 100%;
-        padding: 0 2%;
-    }
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
 }
-
 
 /* Small Tablet to Big Tablets: 768px to 1023px */
 @media only screen and (max-width: 1023px) {
-
 }
-
 
 /* Small Phones to Small Tablets: 481px to 767px */
 @media only screen and (max-width: 767px) {
-    .hero-text-box { padding: 0 4%; }
+  .hero-text-box {
+    padding: 0 4%;
+  }
 }
-
 
 /* Small Phone: 0 to 480px */
 @media only screen and (max-width: 480px) {
-
 }
