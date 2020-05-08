@@ -19,7 +19,7 @@ const socialIconData = {
   logoNames: {
     logo1: "logo-facebook",
     logo2: "logo-twitter",
-    logo3: "logo-googleplus",
+    logo3: "logo-pinterest",
     logo4: "logo-instagram",
   },
 };

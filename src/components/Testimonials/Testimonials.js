@@ -1,56 +1,57 @@
-import React from 'react';
+import React from "react";
 
-import './Testimonials.css';
-import Testimonial from './Testimonial/Testimonial';
-import alberto from '../../assets/img/customer-1-min.jpg';
-import joana from '../../assets/img/customer-2-min.jpg';
-import milton from '../../assets/img/customer-3-min.jpg';
+import "./Testimonials.css";
+import Testimonial from "./Testimonial/Testimonial";
+import jermaine from "../../assets/img/customer-1-min.jpg";
+import karen from "../../assets/img/customer-2-min.jpg";
+import alex from "../../assets/img/customer-3-min.jpg";
 
 const testimonials = {
-    Alberto: {
-        testimonial: 'Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn\'t live without my daily meals!',
-        img: alberto,
-        name: 'Alberto Duncan'
-    },
-    Joana: {
-        testimonial: 'Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!',
-        img: joana,
-        name: 'Joana Silva'
-    },
-    Milton: {
-        testimonial: 'I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!',
-        img: milton,
-        name: 'Milton Chapman'
-    }
-}
+  Alex: {
+    testimonial:
+      "Foodel is a life saver! I work 10-12 hours a week and struggle to find time to cook. Foodel's meals are delicious and helps me to live a healthy lifestyle. I really can't live without them!",
+    img: alex,
+    name: "Alex De Souza",
+  },
+  Karen: {
+    testimonial:
+      "Inexpensive, healthy and great-tasting meals, delivered right to my home. This is an incredible time-saver for a busy mom. Foodel has exceeded my expectations and has won a customer for life!",
+    img: karen,
+    name: "Karen Troup",
+  },
+  Jermaine: {
+    testimonial:
+      "I've tried many different food delivery services but Foodel really stands out. The meals are healthy, absolutely delicious but even more importantly, always arrive fresh and on time.",
+    img: jermaine,
+    name: "Jermaine Griggs",
+  },
+};
 
 const testimonialList = () => {
-    const testimonialArray = [];
-    for(let test in testimonials) {
-        testimonialArray.push((
-            <Testimonial 
-                key={testimonials[test].name}
-                clientName={testimonials[test].name} 
-                img={testimonials[test].img} 
-                alt={testimonials[test].name} 
-                testimonial={testimonials[test].testimonial} 
-            />
-        ));
-    }
-    return testimonialArray;
-}
+  const testimonialArray = [];
+  for (let test in testimonials) {
+    testimonialArray.push(
+      <Testimonial
+        key={testimonials[test].name}
+        clientName={testimonials[test].name}
+        img={testimonials[test].img}
+        alt={testimonials[test].name}
+        testimonial={testimonials[test].testimonial}
+      />
+    );
+  }
+  return testimonialArray;
+};
 
 const Testimonials = () => {
-    return (
-        <section className="section-testimonials">
-            <div className="row">
-                <h2>Our customers can't live without us</h2>
-            </div>
-            <div className="row">
-                {testimonialList()}
-            </div>
-        </section>
-    );
-}
+  return (
+    <section className="section-testimonials">
+      <div className="row">
+        <h2>Here's what our customers have to say</h2>
+      </div>
+      <div className="row">{testimonialList()}</div>
+    </section>
+  );
+};
 
 export default Testimonials;

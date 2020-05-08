@@ -16,8 +16,8 @@ const cities = {
     customerIcon: "person",
     chefIcon: "star",
     socialMediaIcon: "logo-twitter",
-    customers: "1600+ happy eaters",
-    chefs: "60+ top chefs",
+    customers: "3500+ happy eaters",
+    chefs: "7+ top chefs",
     twitterHandle: "@foodel_jv",
   },
   Gainesville: {
@@ -26,8 +26,8 @@ const cities = {
     customerIcon: "person",
     chefIcon: "star",
     socialMediaIcon: "logo-twitter",
-    customers: "3700+ happy eaters",
-    chefs: "160+ top chefs",
+    customers: "1300+ happy eaters",
+    chefs: "2+ top chefs",
     twitterHandle: "@foodel_gv",
   },
   Orlando: {
@@ -36,8 +36,8 @@ const cities = {
     customerIcon: "person",
     chefIcon: "star",
     socialMediaIcon: "logo-twitter",
-    customers: "2300+ happy eaters",
-    chefs: "110+ top chefs",
+    customers: "2900+ happy eaters",
+    chefs: "5+ top chefs",
     twitterHandle: "@foodel_orlando",
   },
   Tampa: {
@@ -46,8 +46,8 @@ const cities = {
     customerIcon: "person",
     chefIcon: "star",
     socialMediaIcon: "logo-twitter",
-    customers: "1200+ happy eaters",
-    chefs: "50+ top chefs",
+    customers: "2100+ happy eaters",
+    chefs: "4+ top chefs",
     twitterHandle: "@foodel_tampa",
   },
 };

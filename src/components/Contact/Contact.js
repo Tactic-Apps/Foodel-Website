@@ -3,7 +3,7 @@ import axios from "axios";
 
 import "./Contact.css";
 import Input from "./Input/Input";
-import map from "../../assets/img/map.jpg";
+import map from "../../assets/img/map-min.png";
 
 class Contact extends Component {
   state = {
@@ -305,7 +305,7 @@ class Contact extends Component {
         </div>
         <div className="form-box">
           <div className="row">
-            <h2>We're happy to hear from you</h2>
+            <h2>We'd love to hear from you</h2>
           </div>
           <div className="row">{form}</div>
         </div>

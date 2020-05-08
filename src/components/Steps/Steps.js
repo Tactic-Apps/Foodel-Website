@@ -12,7 +12,7 @@ const Steps = (props) => {
     <ScrollableAnchor id={"steps"}>
       <section className="section-steps">
         <div className="row">
-          <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+          <h2>How it works &mdash; Easy as 1, 2, 3</h2>
         </div>
         <div className="row">
           <div className="col span-1-of-2 steps-box">
@@ -28,22 +28,21 @@ const Steps = (props) => {
             <div className="works-step clearfix">
               <div>1</div>
               <p>
-                Choose the subscription plan that best fits your needs and sign
-                up today.
+                Download the app and sign up for the subscription plan that
+                suites your needs.
               </p>
             </div>
             <div className="works-step clearfix">
               <div>2</div>
               <p>
-                Order your delicious meal using our mobile app or website. Or
-                you can even call us!
+                Choose your meals along with the delivery times and dates you
+                prefer.
               </p>
             </div>
             <div className="works-step clearfix">
               <div>3</div>
               <p>
-                Enjoy your meal after less than 20 minutes. See you the next
-                time!
+                Enjoy fresh and healthy meals delivered straight to your door.
               </p>
             </div>
             <a href="#" className="btn-app">
