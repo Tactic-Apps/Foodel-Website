@@ -2,7 +2,7 @@
   "name": "omnifood",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://raybdev.github.io/omnifood/build/",
+  "homepage": "https://projects.tacticapps.com/foodel",
   "dependencies": {
     "animate.css": "^3.7.0",
     "axios": "^0.18.1",
@@ -16,9 +16,14 @@
     "react-waypoint": "^8.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
