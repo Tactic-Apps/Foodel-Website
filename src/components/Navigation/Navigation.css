@@ -89,6 +89,9 @@
 
 /* Large resolution screens from 2500px */
 @media only screen and (min-width: 2500px) {
+  .logo {
+    height: 120px;
+  }
 }
 
 /* Big Tablets to 1200px (widths smaller than the 1140px row) */
