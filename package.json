@@ -1,8 +1,8 @@
 {
-  "name": "omnifood",
+  "name": "foodel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://projects.tacticapps.com/foodel",
+  "homepage": "https://tactic-apps.github.io/Foodel-Website/",
   "dependencies": {
     "animate.css": "^3.7.0",
     "axios": "^0.18.1",
